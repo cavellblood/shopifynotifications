@@ -1,5 +1,13 @@
 [
     {
+        "version": "0.0.2",
+        "downloadUrl": "https://github.com/cavellblood/shopifynotifications/archive/0.0.2.zip",
+        "date": "2018-09-12T17:420:00-05:00",
+        "notes": [
+            "[Added] Added plugin files"
+        ]
+    },
+    {
         "version": "0.0.1",
         "downloadUrl": "https://github.com/cavellblood/shopifynotifications/archive/master.zip",
         "date": "2018-09-12T16:23:49.915Z",
