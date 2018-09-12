@@ -1,0 +1,14 @@
+{
+	"name": "cavellblood/shopifynotifications",
+	"description": "Get notifications about Shopify products",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Cavell L. Blood",
+			"homepage": "https://cavellblood.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

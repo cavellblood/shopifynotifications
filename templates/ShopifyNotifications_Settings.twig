@@ -1,0 +1,26 @@
+{#
+/**
+ * Shopify Notifications plugin for Craft CMS
+ *
+ * Shopify Notifications Settings.twig
+ *
+ * @author    Cavell L. Blood
+ * @copyright Copyright (c) 2018 Cavell L. Blood
+ * @link      https://cavellblood.com
+ * @package   ShopifyNotifications
+ * @since     0.0.1
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "shopifynotifications/css/ShopifyNotifications_Style.css" %}
+{% includeJsResource "shopifynotifications/js/ShopifyNotifications_Script.js" %}
+
+{{ forms.textField({
+    label: 'Some Setting',
+    instructions: 'Enter some setting here.',
+    id: 'someSetting',
+    name: 'someSetting', 
+    value: settings['someSetting']})
+}}
